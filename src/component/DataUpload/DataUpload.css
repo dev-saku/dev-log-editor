@@ -1,0 +1,221 @@
+.article-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3%;
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    top: 10%;
+    bottom: 10%;
+    background-color: white;
+}
+
+.article-form__input {
+    /* reset */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 0.4em 0.8em;
+
+    /* original */
+    font-size: large;
+    box-sizing: border-box;
+    color: black;
+    width: 80%;
+    padding: 1%;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.article-form__button {
+    height: 5%;
+    font-size: large;
+    width: 30%;
+    background-color: #3399ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.category-box {
+    display: flex;
+    width: 80%;
+}
+
+.category-box__input {
+    flex: 1;
+}
+
+.category-box__botton--add-category {
+    background-color: white;
+    display: flex;
+    position: relative;
+    top: 25%;
+    right: 25%;
+}
+
+.category-box__container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 10px;
+    flex: 2;
+    margin-left: 3%;
+}
+
+.category-value {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 1%;
+    background-color: #13375C;
+}
+
+.category-value__text {
+    margin: 0;
+    color: #61A8F2;
+}
+
+.category-value__button {
+    background-color: #13375C;
+    color: black;
+    cursor: pointer;
+}
+
+/*
+input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 0.4em 0.8em;
+}
+
+input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    box-shadow: none;
+    outline: none;
+}
+
+.uploadContainer {
+    background-color: #0a1929;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    top: 15%;
+    bottom: 15%;
+    left: 25%;
+    right: 25%;
+    color: #c2e0ff;
+}
+
+.uploadWrapper {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.inputBox {
+    display: flex;
+    padding: 1%;
+    height: auto;
+}
+
+.inputBox label {
+    font-size: larger;
+    flex: 4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer {
+    flex: 8;
+    background-color: #0a1929;
+    border-color: #18293b;
+    color: white;
+    display: flex;
+}
+
+.inputContainer input {
+    width: 100%;
+    border-color: #bdbdbd;
+}
+
+.thumbnailUploader {
+    width: 100%;
+    display: flex;
+    flex: 8;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow: hidden;
+}
+
+.thumbnailUploader:before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: solid 1px #bdbdbd;
+    height: 6%;
+    width: 58.5%;
+    color: #fafafa;
+    font-size: 14px;
+    content: '画像を選択';
+    pointer-events: none;
+}
+
+.fileInput {
+    height: fit-content;
+    opacity: 0;
+    background-color: #0a1929;
+}
+
+.fileInput::before {
+    border: 2px solid white;
+}
+
+.thumbnailName {
+    display: flex;
+    column-gap: 3%;
+}
+
+.inputCategoryContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.inputCategoryContainer input {
+    width: auto;
+}
+
+.submitBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn {
+    background-color: #017fff;
+    color: #0a1929;
+    width: 20%;
+    color: white;
+    cursor: pointer;
+}
+*/
